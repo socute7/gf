@@ -106,24 +106,24 @@ const loader = new THREE.TextureLoader()
 // Taruh foto kamu di folder: public/photos/
 // Format yang didukung: .jpg .jpeg .JPG .png .PNG
 const IMAGE_PATHS = [
-  '/1.jpg',
-  '/2.jpg',
-  '/3.JPG',
-  '/4.JPG',
-  '/5.PNG',
-  '/6.JPG',
-  '/7.PNG',
-  '/8.jpg',
-  '/9.jpg',
-  '/10.JPG',
-  '/11.JPG',
-  '/12.JPG',
-  '/13.PNG',
-  '/14.JPG',
-  '/15.JPG',
-  '/16.PNG',
-  '/17.JPG',
-  '/18.JPG'
+  new URL('/photos/1.jpg', import.meta.url).href,
+  new URL('/photos/2.jpg', import.meta.url).href,
+  new URL('/photos/3.JPG', import.meta.url).href,
+  new URL('/photos/4.JPG', import.meta.url).href,
+  new URL('/photos/5.PNG', import.meta.url).href,
+  new URL('/photos/6.JPG', import.meta.url).href,
+  new URL('/photos/7.PNG', import.meta.url).href,
+  new URL('/photos/8.jpg', import.meta.url).href,
+  new URL('/photos/9.jpg', import.meta.url).href,
+  new URL('/photos/10.JPG', import.meta.url).href,
+  new URL('/photos/11.JPG', import.meta.url).href,
+  new URL('/photos/12.JPG', import.meta.url).href,
+  new URL('/photos/13.PNG', import.meta.url).href,
+  new URL('/photos/14.JPG', import.meta.url).href,
+  new URL('/photos/15.JPG', import.meta.url).href,
+  new URL('/photos/16.PNG', import.meta.url).href,
+  new URL('/photos/17.JPG', import.meta.url).href,
+  new URL('/photos/18.JPG', import.meta.url).href,
 ]
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
